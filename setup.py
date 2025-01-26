@@ -4,7 +4,7 @@ setup(
     name='analog-nasbench',
     version='0.1.0',
     packages=find_packages(),
-    include_package_data=True,  # Important for including data files
+    include_package_data=True,
     package_data={
         'analog-nasbench': ['benchmark_data.csv'],
     },
